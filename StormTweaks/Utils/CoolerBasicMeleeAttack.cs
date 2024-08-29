@@ -1,6 +1,6 @@
 using System;
 
-namespace ModName.Utils {
+namespace StormTweaks.Utils {
     public abstract class CoolerBasicMeleeAttack : BasicMeleeAttack {
         public abstract float BaseDuration { get; }
         public abstract float DamageCoefficient { get; }

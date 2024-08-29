@@ -4,12 +4,12 @@ using RoR2.Skills;
 using UnityEngine.AddressableAssets;
 using UnityEngine.Rendering.PostProcessing;
 
-namespace ModName.Utils.Assets {
+namespace StormTweaks.Utils.Assets {
    /*
    Generated from the following code (with some manual adjustments after)
    private void GenerateMap() {
             _ = Addressables.LoadAssetAsync<UnityEngine.Object>("RoR2/Base/Huntress/Skins.Huntress.Alt1.asset").WaitForCompletion();
-            string outputFilePath = Assembly.GetExecutingAssembly().Location.Replace("ModName.dll", "Assets.cs");
+            string outputFilePath = Assembly.GetExecutingAssembly().Location.Replace("StormTweaks.dll", "Assets.cs");
             Dictionary<Type, List<string>> map = new();
             foreach (var item in Addressables.ResourceLocators) {
                 foreach (object key in item.Keys) {
@@ -45,7 +45,7 @@ namespace ModName.Utils.Assets {
             builder.AppendLine("using UnityEngine.AddressableAssets;");
             builder.AppendLine("using UnityEngine.Rendering.PostProcessing;");
             builder.AppendLine("");
-            builder.AppendLine("namespace ModName.Utils {");
+            builder.AppendLine("namespace StormTweaks.Utils {");
 
             Regex rgx = new Regex("[^a-zA-Z0-9]");
 

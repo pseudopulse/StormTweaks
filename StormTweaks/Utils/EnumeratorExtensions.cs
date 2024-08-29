@@ -1,6 +1,6 @@
 using System.Linq;
 
-namespace ModName.Utils
+namespace StormTweaks.Utils
 {
     public static class EnumeratorExtensions
     {

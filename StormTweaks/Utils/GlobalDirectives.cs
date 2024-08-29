@@ -1,7 +1,7 @@
 global using Unity;
 global using UnityEngine;
 global using UnityEngine.AddressableAssets;
-global using ModName.Utils;
+global using StormTweaks.Utils;
 global using Random = UnityEngine.Random;
 global using RoR2;
 global using RoR2.Skills;
@@ -13,5 +13,6 @@ global using System;
 global using Object = UnityEngine.Object;
 global using UnityEngine.Networking;
 global using BepInEx.Configuration;
-global using Assets = ModName.Utils.Assets;
-
+global using Assets = StormTweaks.Utils.Assets;
+global using R2API;
+global using static StormTweaks.Main;

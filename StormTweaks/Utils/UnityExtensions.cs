@@ -3,7 +3,7 @@ using System;
 using Unity;
 using System.Linq;
 
-namespace ModName.Utils
+namespace StormTweaks.Utils
 {
     public static class UnityExtensions
     {

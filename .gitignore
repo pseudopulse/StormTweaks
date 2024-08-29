@@ -1,4 +1,5 @@
 # libs and build directories
-ModName/bin
-ModName/obj
+StormTweaks/bin
+StormTweaks/obj
 build.sh
+StormTweaks/libs

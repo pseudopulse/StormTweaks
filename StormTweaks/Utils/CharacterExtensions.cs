@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using RoR2.Skills;
 
-namespace ModName.Utils
+namespace StormTweaks.Utils
 {
     public static class CharacterExtensions
     {

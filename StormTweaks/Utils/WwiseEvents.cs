@@ -1,4 +1,4 @@
-namespace ModName.Utils
+namespace StormTweaks.Utils
 {
     public static class Events
     {
