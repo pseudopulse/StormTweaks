@@ -13,6 +13,7 @@ global using System;
 global using Object = UnityEngine.Object;
 global using UnityEngine.Networking;
 global using BepInEx.Configuration;
-global using Assets = StormTweaks.Utils.Assets;
+global using Paths = StormTweaks.Utils.Assets;
 global using R2API;
 global using static StormTweaks.Main;
+global using BepInEx;

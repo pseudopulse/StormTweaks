@@ -1,10 +1,15 @@
 {
 	"name": "StormTweaks",
 	"version_number": "1.0.0",
-	"website_url": "",
-	"description": "ModDesc",
+	"website_url": "https://github.com/pseudopulse/StormTweaks",
+	"description": "Buffs, reworks, and fixes for the survivors added by SOTS.",
 	"dependencies": [
 		"bbepis-BepInExPack-5.4.9",
-		"RiskofThunder-HookGenPatcher-1.2.1"
+		"RiskofThunder-HookGenPatcher-1.2.1",
+		"RiskofThunder-R2API_Core-5.1.1",
+		"RiskofThunder-R2API_ContentManagement-1.0.5",
+		"RiskofThunder-R2API_Prefab-1.0.4",
+		"RiskofThunder-R2API_Language-1.0.1",
+		"RiskofThunder-R2API_DamageType-1.1.1"
 	]
 }
