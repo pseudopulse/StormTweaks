@@ -22,3 +22,12 @@ Tweaks some of the content added by Seekers of the Storm.
 
 ## Seeker
 - Meditation now deals 800% damage.
+
+## Build Instructions
+Visual Studio 2022 Community Edition with .NET standard 2.1 can be used to build this project.
+
+Additionally, please note that two Risk of Rain 2 official game assemblies need to be included within this project in order to build it from source. These two files are named `Decalicious.dll` and `Unity.Postprocessing.Runtime.dll`. You can find these assemblies within your game's installation directory. Example paths for these assemblies can be found below.
+ - `C:\Program Files (x86)\Steam\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Managed\Decalicious.dll`
+ - `C:\Program Files (x86)\Steam\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Managed\Unity.Postprocessing.Runtime.dll`
+
+Including these assemblies within the existing project directory at `StormTweaks/StormTweaks` (adjacent to `Plugin.cs`) should automatically include them within Visual Studio's build chain.
