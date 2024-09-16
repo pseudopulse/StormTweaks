@@ -238,7 +238,7 @@ namespace StormTweaks {
         {
             orig(self);
 
-            self.recallCleaver = self.cleaverAway && !self.characterBody.inputBank.skill1.down && ChefCleaverStorage.GetCanBodyRecall(self.characterBody);
+            self.recallCleaver = !self.characterBody.inputBank.skill1.down && ChefCleaverStorage.GetCanBodyRecall(self.characterBody);
         }
 
         private static void Dice_FixedUpdate(On.EntityStates.Chef.Dice.orig_FixedUpdate orig, Dice self)
